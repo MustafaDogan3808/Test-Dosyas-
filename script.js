@@ -2,8 +2,9 @@ const inputBox = document.getElementById("input-box");  //girdi olarak yazdigimi
 let todos = JSON.parse(localStorage.getItem("todos")) || [];
 
 function PageLoaded() {
-    //bu satir sayesinde her yeni gorev eklendiginde ustune tekrar tekrar eklenir
+    //bu satir sayesinde her yeni gorev eklendiginde ustune tekrar tekrar eklenmesi engellenir
     document.querySelectorAll('.todos').forEach(todoElement => todoElement.remove());
+    
     todos.forEach(todo => {
         let a = document.createElement("div")
         let b = document.createElement("div")
