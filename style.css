@@ -6,14 +6,17 @@ body {
     font-family: "Calistoga", serif;
     font-weight: 400;
     font-style: normal;
-    background: radial-gradient(rgb(255, 255, 255), rgb(255, 210, 113));
+background: #9785ff;
+background: linear-gradient(90deg,rgba(151, 133, 255, 1) 0%, rgba(130, 130, 237, 1) 35%, rgba(99, 128, 255, 1) 100%);
 }
 
 .adder {
     display: flex;
     justify-self: center;
     margin-top: 100px;
-    background-color: rgb(135, 131, 255);
+
+background: #436df7;
+background: radial-gradient(circle,rgba(67, 109, 247, 1) 0%, rgb(50, 144, 251) 100%);
     height: auto;
     align-items: center;
     flex-direction: column;
@@ -59,7 +62,8 @@ body {
 .todos {
     justify-self: center;
     margin-top: 20px;
-    background-color: rgb(135, 131, 255);
+background: #436df7;
+background: radial-gradient(circle,rgba(67, 109, 247, 1) 0%, rgb(50, 144, 251) 100%);
     width: 50%;
     border-radius: 6px;
     height: auto;
@@ -94,7 +98,7 @@ body {
 }
 
 .todo-delete:hover {
-    background-color: rgb(88, 82, 248);
+    background-color: rgb(18, 43, 238);
 }
 
 .add-button {
